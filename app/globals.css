@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.signinpera{
+    width: 400px;
+}
+input{
+    width: 350px;
+    height: 30px;
+    margin: 10px;
+}
+.signinimg img{
+    /* float: right; */
+    margin-left: 800px;
+    margin-top: -260px;
+}
+.main{
+    margin-left: 50px;
+}
+.signinbtn button{
+   padding: 10px 20px;
+    
+    background-color: #b50d3a;
+    border-style:none ;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    
+}
+.layerbtn{
+    margin-left: 800px;
+    margin-top: -400px;
+    display: flex; 
+    flex-direction: row;
+}
+  
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn{
+    display: flex;
+    gap: 2rem;
+    padding: 60px;
+    width: 350px;
+    justify-content: center;
+    align-items: center ;
+
+}
+.right{
+    display: flex   ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.localbtn{
+    margin-left: 10px;
+}
